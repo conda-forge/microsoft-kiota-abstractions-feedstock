@@ -18,7 +18,7 @@ requirements:
   host:
     - python >=3.8,<4.0
     - pip
-    - poetry-core>=1.0.0
+    - poetry-core >=1.0.0
   run:
     - python >=3.8,<4.0
     - std-uritemplate >=0.0.38,<2.0.0
