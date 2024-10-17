@@ -34,13 +34,13 @@ test:
     - pip
 
 about:
-  home: https://github.com/microsoft/kiota-abstractions-python
+  home: https://github.com/microsoft/kiota-python/tree/main/packages/abstractions
   summary: Core abstractions for kiota generated libraries in Python
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  dev_url: https://github.com/microsoft/kiota-abstractions-python
-  doc_url: https://github.com/microsoft/kiota-abstractions-python/blob/main/README.md
+  dev_url: https://github.com/microsoft/kiota-python/tree/main/packages/abstractions
+  doc_url: https://github.com/microsoft/kiota-python/blob/main/packages/abstractions/README.md
 
 extra:
   recipe-maintainers:
