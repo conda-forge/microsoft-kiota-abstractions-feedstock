@@ -1,5 +1,5 @@
 {% set name = "microsoft-kiota-abstractions" %}
-{% set version = "1.4.0" %}
+{% set version = "1.4.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/microsoft_kiota_abstractions-{{ version }}.tar.gz
-  sha256: b34585f56a6023d38909edf7bfddeb9f3aa4b69727d138a6636f95eee3d1064b
+  sha256: 2d54805d7383b5e0560ce607c6cd97107721a1df7f1b55924fae263a948c0124
 
 build:
   noarch: python
@@ -34,13 +34,13 @@ test:
     - pip
 
 about:
-  home: https://github.com/microsoft/kiota-abstractions-python
+  home: https://github.com/microsoft/kiota-python/tree/main/packages/abstractions
   summary: Core abstractions for kiota generated libraries in Python
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  dev_url: https://github.com/microsoft/kiota-abstractions-python
-  doc_url: https://github.com/microsoft/kiota-abstractions-python/blob/main/README.md
+  dev_url: https://github.com/microsoft/kiota-python/tree/main/packages/abstractions
+  doc_url: https://github.com/microsoft/kiota-python/blob/main/packages/abstractions/README.md
 
 extra:
   recipe-maintainers:
