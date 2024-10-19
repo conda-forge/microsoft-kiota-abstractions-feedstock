@@ -3,15 +3,15 @@ About microsoft-kiota-abstractions-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/microsoft-kiota-abstractions-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/microsoft/kiota-abstractions-python
+Home: https://github.com/microsoft/kiota-python/tree/main/packages/abstractions
 
 Package license: MIT
 
 Summary: Core abstractions for kiota generated libraries in Python
 
-Development: https://github.com/microsoft/kiota-abstractions-python
+Development: https://github.com/microsoft/kiota-python/tree/main/packages/abstractions
 
-Documentation: https://github.com/microsoft/kiota-abstractions-python/blob/main/README.md
+Documentation: https://github.com/microsoft/kiota-python/blob/main/packages/abstractions/README.md
 
 Current build status
 ====================
