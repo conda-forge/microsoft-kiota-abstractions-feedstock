@@ -1,5 +1,5 @@
 {% set name = "microsoft-kiota-abstractions" %}
-{% set version = "1.6.6" %}
+{% set version = "1.6.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/microsoft_kiota_abstractions-{{ version }}.tar.gz
-  sha256: 2554495b00c9c25b43f6964a71b65c89a277bd6b50f4d0028a7febcec6c4fd67
+  sha256: 4bb3d1ffea196b1df8b18ec01cad8c6884a9175b35ca6f12beba38baabefc5bc
 
 build:
   noarch: python
@@ -20,7 +20,7 @@ requirements:
     - pip
     - poetry-core >=1.0.0
   run:
-    - python >={{ python_min }}
+    - python >={{ python_min }},<4.0
     - std-uritemplate >=2.0.0
     - opentelemetry-api >=1.27.0
     - opentelemetry-sdk >=1.27.0
