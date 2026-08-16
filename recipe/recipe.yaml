@@ -1,6 +1,6 @@
 context:
   name: microsoft-kiota-abstractions
-  version: "1.11.8"
+  version: "1.11.9"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/microsoft_kiota_abstractions-${{ version }}.tar.gz
-  sha256: d691a173d4d9c90ad24b436ba7b0b413d584513d9deff897eebeb4100846ea56
+  sha256: c731f270573689437c07b3ecd9533fed7d6d895e19d98ed5d3df5cec1750fe14
 
 build:
   noarch: python
@@ -19,7 +19,7 @@ requirements:
   host:
     - python ${{ python_min }}.*
     - pip
-    - flit-core >=3.2,<4
+    - flit-core >=3.2,<5
   run:
     - python >=${{ python_min }},<4.0
     - std-uritemplate >=2.0.0
