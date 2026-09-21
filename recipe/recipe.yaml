@@ -1,6 +1,6 @@
 context:
   name: microsoft-kiota-abstractions
-  version: "1.12.2"
+  version: "1.13.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/microsoft_kiota_abstractions-${{ version }}.tar.gz
-  sha256: 3b18e6077868adcdabf8597a0f8f800f4b7fe30b6622189a199da29c007ade15
+  sha256: e04551426c5a15e584b5c14a607615ef7e5d93a239bddd94afaad1bde567a9d5
 
 build:
   noarch: python
