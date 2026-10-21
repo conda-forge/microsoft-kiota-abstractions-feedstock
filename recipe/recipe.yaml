@@ -1,6 +1,6 @@
 context:
   name: microsoft-kiota-abstractions
-  version: "1.14.3"
+  version: "1.15.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/microsoft_kiota_abstractions-${{ version }}.tar.gz
-  sha256: 473c76823fab0fba20b374e6c05be43b2161979025568b41927134c52c686d08
+  sha256: 61ea01ee19994ffd10366655d4d5a533221909b1a3a94a6b49e3b750d1a90745
 
 build:
   noarch: python
@@ -25,6 +25,7 @@ requirements:
     - std-uritemplate >=2.0.0
     - opentelemetry-api >=1.27.0
     - opentelemetry-sdk >=1.27.0
+    - typing_extensions >=4.4.0
 
 tests:
   - python:
